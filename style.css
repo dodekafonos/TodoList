@@ -1,0 +1,92 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #0f1417;
+  text-align: center;
+  background: #1c2725;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(11, 2em);
+  grid-template-rows: repeat(18, 2em);
+  width: 22rem;
+  height: 36rem;
+  background: #e86741;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  grid-column: 2 / 10;
+  grid-row: 1 / 3;
+}
+
+#first {
+  grid-column: 2 / 10;
+  grid-row: 4 / 5;
+}
+
+#userinput {
+  grid-column: 2 / 10;
+  grid-row: 6 / 7;
+  width: 14rem;
+  background: #1c2725;
+  color: white;
+  border: 2px solid #0f1417;
+  border-radius: 5px;
+}
+
+#enter {
+  grid-column: 10 / 11;
+  grid-row: 6 / 7;
+  background: #694432;
+  border: 2px solid #0f1417;
+  border-radius: 5px;
+}
+
+#enter:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: circle;
+  grid-column: 2 / 10;
+  grid-row: 7 / 17;
+}
+
+li {
+  text-align: left;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#reset {
+  grid-column: 4 / 9;
+  grid-row: 17 / 18;
+  background: #694432;
+  border-radius: 5px;
+  border: 2px solid #0f1417;
+}
+
+#reset:hover {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.delBtn {
+  grid-column: 11 / 12;
+  background-color: #694432;
+  border-radius: 5px;
+  border: 1px solid #0f1417;
+}
